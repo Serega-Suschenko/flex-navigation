@@ -3,21 +3,21 @@
   margin: 0;
   padding: 0;
 }
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .header{
-  display: flex;
   min-width: 320px;
   min-height: 120px;
   background-color: black;
   flex-direction: row;
   justify-content:space-between ;
   align-items: center;
-  flex-wrap: wrap;
 }
 .list{
-  display: flex;
-  align-self: center;
-  flex-wrap: wrap;
+  align-self: center; 
 }
 .link{
   text-decoration: none;
