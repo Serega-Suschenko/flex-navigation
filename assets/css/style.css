@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  min-width: 320px;
+  min-height: 120px;
+  background-color: black;
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list{
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.link{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 17px;
+}
+.logo{
+  font-size: 28px;
+}
